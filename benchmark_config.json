@@ -1,0 +1,45 @@
+{
+  "name": "Gemma Benchmark Suite Configuration",
+  "description": "Configuration for benchmarking Gemma models",
+  "version": "1.0.0",
+  "model_registry_path": "configs/models_registry.json",
+  "task_registry_path": "configs/tasks_registry.json",
+  "dataset_registry_path": "configs/datasets_registry.json",
+  "cache_dir": "cache",
+  "results_dir": "results",
+  "device": "cuda",
+  "models": [
+    "gemma-3-1b",
+    "gemma-3-4b",
+    "gemma-2-2b",
+    "gemma-1-2b"
+  ],
+  "tasks": [
+    "mmlu",
+    "gsm8k"
+  ],
+  "task_params": {
+    "mmlu": {
+      "n_shots": 5,
+      "subjects": [
+        "high_school_mathematics",
+        "high_school_computer_science",
+        "college_mathematics",
+        "college_computer_science",
+        "high_school_physics",
+        "college_physics"
+      ]
+    },
+    "gsm8k": {
+      "n_shots": 5,
+      "max_examples": 100
+    }
+  },
+  "evaluation": {
+    "metrics": [
+      "accuracy",
+      "runtime_seconds"
+    ],
+    "aggregation": "weighted_average"
+  }
+}

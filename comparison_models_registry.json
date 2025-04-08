@@ -1,0 +1,84 @@
+{
+  "models": {
+    "llama-2-7b": {
+      "id": "llama-2-7b",
+      "name": "Llama 2 7B",
+      "path": "meta-llama/Llama-2-7b-hf",
+      "type": "huggingface",
+      "parameter_size": "7B",
+      "family": "Llama 2",
+      "quantization": null,
+      "max_memory": null
+    },
+    "llama-2-13b": {
+      "id": "llama-2-13b",
+      "name": "Llama 2 13B",
+      "path": "meta-llama/Llama-2-13b-hf",
+      "type": "huggingface",
+      "parameter_size": "13B",
+      "family": "Llama 2",
+      "quantization": "8bit",
+      "max_memory": null
+    },
+    "llama-2-70b": {
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "path": "meta-llama/Llama-2-70b-hf",
+      "type": "huggingface",
+      "parameter_size": "70B",
+      "family": "Llama 2",
+      "quantization": "4bit",
+      "max_memory": null
+    },
+    "llama-3-8b": {
+      "id": "llama-3-8b",
+      "name": "Llama 3 8B",
+      "path": "meta-llama/Llama-3-8b-hf",
+      "type": "huggingface",
+      "parameter_size": "8B",
+      "family": "Llama 3",
+      "quantization": null,
+      "max_memory": null
+    },
+    "llama-3-70b": {
+      "id": "llama-3-70b",
+      "name": "Llama 3 70B",
+      "path": "meta-llama/Llama-3-70b-hf",
+      "type": "huggingface",
+      "parameter_size": "70B",
+      "family": "Llama 3",
+      "quantization": "4bit",
+      "max_memory": null
+    },
+    "mistral-7b": {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "path": "mistralai/Mistral-7B-v0.1",
+      "type": "huggingface",
+      "parameter_size": "7B",
+      "family": "Mistral",
+      "quantization": null,
+      "max_memory": null
+    },
+    "mistral-7b-instruct": {
+      "id": "mistral-7b-instruct",
+      "name": "Mistral 7B Instruct",
+      "path": "mistralai/Mistral-7B-Instruct-v0.1",
+      "type": "huggingface",
+      "parameter_size": "7B",
+      "family": "Mistral",
+      "quantization": null,
+      "max_memory": null
+    },
+    "mixtral-8x7b": {
+      "id": "mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "path": "mistralai/Mixtral-8x7B-v0.1",
+      "type": "huggingface",
+      "parameter_size": "8x7B",
+      "family": "Mixtral",
+      "quantization": "4bit",
+      "max_memory": null
+    }
+  }
+}

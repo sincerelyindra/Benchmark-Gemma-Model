@@ -1,0 +1,45 @@
+{
+  "name": "Comparison Models Benchmark Configuration",
+  "description": "Configuration for benchmarking comparison models against Gemma",
+  "version": "1.0.0",
+  "model_registry_path": "configs/comparison_models_registry.json",
+  "task_registry_path": "configs/tasks_registry.json",
+  "dataset_registry_path": "configs/datasets_registry.json",
+  "cache_dir": "cache",
+  "results_dir": "results/comparison",
+  "device": "cuda",
+  "models": [
+    "llama-2-7b",
+    "llama-3-8b",
+    "mistral-7b",
+    "mistral-7b-instruct"
+  ],
+  "tasks": [
+    "mmlu",
+    "gsm8k"
+  ],
+  "task_params": {
+    "mmlu": {
+      "n_shots": 5,
+      "subjects": [
+        "high_school_mathematics",
+        "high_school_computer_science",
+        "college_mathematics",
+        "college_computer_science",
+        "high_school_physics",
+        "college_physics"
+      ]
+    },
+    "gsm8k": {
+      "n_shots": 5,
+      "max_examples": 100
+    }
+  },
+  "evaluation": {
+    "metrics": [
+      "accuracy",
+      "runtime_seconds"
+    ],
+    "aggregation": "weighted_average"
+  }
+}

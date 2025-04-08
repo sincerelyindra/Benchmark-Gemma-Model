@@ -1,0 +1,94 @@
+{
+  "models": {
+    "gemma-3-1b": {
+      "id": "gemma-3-1b",
+      "name": "Gemma 3 1B",
+      "path": "google/gemma-3-1b",
+      "type": "huggingface",
+      "parameter_size": "1B",
+      "family": "Gemma 3",
+      "quantization": null,
+      "max_memory": null
+    },
+    "gemma-3-4b": {
+      "id": "gemma-3-4b",
+      "name": "Gemma 3 4B",
+      "path": "google/gemma-3-4b",
+      "type": "huggingface",
+      "parameter_size": "4B",
+      "family": "Gemma 3",
+      "quantization": null,
+      "max_memory": null
+    },
+    "gemma-3-12b": {
+      "id": "gemma-3-12b",
+      "name": "Gemma 3 12B",
+      "path": "google/gemma-3-12b",
+      "type": "huggingface",
+      "parameter_size": "12B",
+      "family": "Gemma 3",
+      "quantization": "8bit",
+      "max_memory": null
+    },
+    "gemma-3-27b": {
+      "id": "gemma-3-27b",
+      "name": "Gemma 3 27B",
+      "path": "google/gemma-3-27b",
+      "type": "huggingface",
+      "parameter_size": "27B",
+      "family": "Gemma 3",
+      "quantization": "8bit",
+      "max_memory": null
+    },
+    "gemma-2-2b": {
+      "id": "gemma-2-2b",
+      "name": "Gemma 2 2B",
+      "path": "google/gemma-2-2b",
+      "type": "huggingface",
+      "parameter_size": "2B",
+      "family": "Gemma 2",
+      "quantization": null,
+      "max_memory": null
+    },
+    "gemma-2-9b": {
+      "id": "gemma-2-9b",
+      "name": "Gemma 2 9B",
+      "path": "google/gemma-2-9b",
+      "type": "huggingface",
+      "parameter_size": "9B",
+      "family": "Gemma 2",
+      "quantization": null,
+      "max_memory": null
+    },
+    "gemma-2-27b": {
+      "id": "gemma-2-27b",
+      "name": "Gemma 2 27B",
+      "path": "google/gemma-2-27b",
+      "type": "huggingface",
+      "parameter_size": "27B",
+      "family": "Gemma 2",
+      "quantization": "8bit",
+      "max_memory": null
+    },
+    "gemma-1-2b": {
+      "id": "gemma-1-2b",
+      "name": "Gemma 1 2B",
+      "path": "google/gemma-1-2b",
+      "type": "huggingface",
+      "parameter_size": "2B",
+      "family": "Gemma 1",
+      "quantization": null,
+      "max_memory": null
+    },
+    "gemma-1-7b": {
+      "id": "gemma-1-7b",
+      "name": "Gemma 1 7B",
+      "path": "google/gemma-1-7b",
+      "type": "huggingface",
+      "parameter_size": "7B",
+      "family": "Gemma 1",
+      "quantization": null,
+      "max_memory": null
+    }
+  }
+}
