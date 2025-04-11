@@ -1,4 +1,5 @@
-# Gemma Benchmark Suite
+# Benchmark Gemma Model
+
 
 A comprehensive benchmarking suite for evaluating and comparing Gemma models across different tasks and metrics.
 
